@@ -1,12 +1,8 @@
-import 'package:flutter_test/flutter_test.dart';
-
+import 'package:test/test.dart';
 import 'package:hello_greetings/hello_greetings.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+  test('greet returns correct message', () {
+    expect(greet('Sahil'), 'Hello, Sahil! Welcome to hello_greetings package.');
   });
 }

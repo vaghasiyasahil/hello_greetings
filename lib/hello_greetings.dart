@@ -1,5 +1,6 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+// library hello_greetings;
+
+/// Returns a friendly greeting message.
+String greet(String name) {
+  return 'Hello, $name! Welcome to hello_greetings package.';
 }
